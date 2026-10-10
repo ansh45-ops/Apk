@@ -422,6 +422,19 @@ fun LivePreviewAndCodeTab(
                         }
 
                         CodeViewerCard(
+                            title = ".github/workflows/build-apk.yml",
+                            code = ApkPackagerEngine.generateGithubActionsYml(activeBuild.appName),
+                            onCopy = {
+                                copyToClipboard(
+                                    context,
+                                    "build-apk.yml",
+                                    ApkPackagerEngine.generateGithubActionsYml(activeBuild.appName)
+                                )
+                            },
+                            modifier = Modifier.height(260.dp)
+                        )
+
+                        CodeViewerCard(
                             title = "AndroidManifest.xml",
                             code = activeBuild.androidManifestXml,
                             onCopy = {
