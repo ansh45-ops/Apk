@@ -1,0 +1,6 @@
+{
+  "name": "APK Forge",
+  "description": "AI-powered Android APK generator and mobile app studio. Enter any prompt to generate interactive apps, inspect Kotlin/Compose source code, and download APK packages or Android Studio project bundles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

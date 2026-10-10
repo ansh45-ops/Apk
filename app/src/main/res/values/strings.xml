@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">APK Forge</string>
+    <string name="hero_title">Prompt to Android APK Studio</string>
+    <string name="hero_subtitle">Describe any mobile app idea — calculator, game, tracker, or tool — and generate an interactive APK, live device preview, and downloadable package in seconds.</string>
+    <string name="tab_forge">Forge Studio</string>
+    <string name="tab_preview">Live App &amp; Code</string>
+    <string name="tab_vault">APK Vault</string>
+    <string name="prompt_label">Describe the app you want to build</string>
+    <string name="prompt_placeholder">e.g., Make a scientific calculator with unit converter, calculation history, and neon dark theme…</string>
+    <string name="generate_apk_button">Generate to APK</string>
+    <string name="generating_apk_button">Forging APK Package…</string>
+    <string name="download_apk_button">Download .APK to Device</string>
+    <string name="save_apk_as_button">Save .APK File As…</string>
+    <string name="download_project_zip_button">Download Android Project (.ZIP)</string>
+    <string name="share_apk_button">Share / Export Package</string>
+    <string name="launch_fullscreen_button">Launch Full-Screen App</string>
+    <string name="security_warning_banner">Prototype Notice: API keys packaged in debug builds can be extracted if decompiled. Do not distribute debug APKs containing personal API keys publicly.</string>
+    <string name="empty_vault_title">No Generated APKs Yet</string>
+    <string name="empty_vault_subtitle">Enter a prompt in Forge Studio or pick a quick template to build and download your first APK.</string>
+</resources>
